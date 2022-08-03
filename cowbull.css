@@ -1,0 +1,55 @@
+body {
+    background-color: #FFEEEE;
+    text-align: center;
+
+}
+
+input {
+     font-size: large;
+     background-color: #A5C9CA; 
+    padding: 10px;
+}
+
+button {
+    color: black;
+    font-size: x-large;
+    text-align: end;
+    background-color: #A5C9CA; 
+    margin: 30px;
+}
+
+
+
+#heading {
+    color: #4C3A51;
+    font-style: italic;
+    text-align: center;
+    font-size: xx-large;
+}
+
+.cowbull {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 230px;
+    width: 18%;
+}
+
+#images {
+    text-align: center;
+}
+/* #timer{
+  
+} */
+/* .hlight
+{
+background-color: aquamarine;
+} */
+/* @media screen  and (min-width: 480px){
+   input, button
+    {
+
+padding: 20px;
+margin: 30px;
+    }
+} */

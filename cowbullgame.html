@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+
+
+  <link rel="stylesheet" href="cowbull.css">
+  <script  type="text/javascript" src="cowbull.js">
+
+  </script>
+  <title>COW BULL GAME</title>
+  </head>
+  
+  
+<body>
+  <div id="Page1">
+  <h1 id="heading">Welcome to COW BULL's World</h1>
+
+<p id="random"></p>
+<div id="images">
+  
+   <img src="https://img.freepik.com/premium-vector/cute-cow-cartoon_160606-336.jpg?w=2000" class="cowbull" > 
+    <img src="https://graphicriver.img.customer.envatousercontent.com/files/149490987/Bull%20Cartoon_PREVIEW.jpg?auto=compress%2Cformat&q=80&fit=crop&crop=top&max-h=8000&max-w=590&s=93747ab89b3e5daff8231c87cbf09273" class="cowbull" >
+  
+</div>  
+<h2>How to Play</h2>
+  
+ <h3>One player, the Chooser, thinks of a four-numbers and the other player, the Guesser, tries to guess it. 
+  <br>
+  At each turn the Guesser tries a four-numbers, and the Chooser says how close it is to the answer by giving:
+  <br>
+  
+    
+    The number of Bulls - numbers correct in the right position.
+    <br>
+    The number of Cows - numbers correct but in the wrong position.
+     <br>
+     Once You get the Bull the Box will change the Color.
+     <br>
+
+ </h3>
+ <br>
+<button onclick="twoslide('Page2','Page1'); swatch(); ">PLAY
+</div>
+  
+<div id="Page2" style="display:none">
+ 
+    <h1>Get Set Go!!!<h1>
+      <div id="timer">00:00</div>
+
+  <b>Enter your number:</b>
+  <br>
+  <input type="text"  id='first' size="2" onkeyup="movetoNext(this, 'second')" maxlength="1" />
+  <input type="text" id='second' size="2" onkeyup="movetoNext(this, 'third')" maxlength="1" />
+  <input type="text" id='third' size="2" onkeyup="movetoNext(this, 'four')" maxlength="1" />
+  <input type="text" id='four' size="2" maxlength="1" />
+  <br>
+  <button type="button" name="button" id="myBtn" onclick="inputArray()">
+    Submit
+  </button>
+   <br>
+
+
+<!-- </form> -->
+
+
+<!-- <button onclick=swatch()>START</button>  -->
+<div id="generated"></div>
+<div id="par" ></div>
+
+<div id="result" ></div>
+<div id="cow"></div>
+<div id="bull"></div>
+
+<div id="gameOver"></div>
+<br>
+
+<button  onClick="window.location.reload();">PLAY AGAIN</button>
+
+<div id="playagain"></div>
+</div>
+</body>
+</html>
